@@ -1,5 +1,8 @@
 # ImageHander
-基于OpencvSharp制作的图像处理
+
+基于C# OpencvSharp库制作的图像处理
+开发环境：.Net Framework 4.6.1
+
 实现功能
 1.图片去水印
 2.滤镜
