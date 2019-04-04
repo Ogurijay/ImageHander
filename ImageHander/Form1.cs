@@ -290,7 +290,7 @@ namespace ImageHander
 
         private void btnPrint_Click(object sender, EventArgs e)
         {
-            Cv2.ImWrite(AppDomain.CurrentDomain.BaseDirectory + "/" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".png", showImg);
+            Cv2.ImWrite(AppDomain.CurrentDomain.BaseDirectory + "/" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".jpg", showImg);
         }
 
         private void btnNostalgic_Click(object sender, EventArgs e)

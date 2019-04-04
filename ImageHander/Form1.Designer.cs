@@ -63,7 +63,7 @@
             this.btnOpenFile1.Location = new System.Drawing.Point(841, 12);
             this.btnOpenFile1.Name = "btnOpenFile1";
             this.btnOpenFile1.Size = new System.Drawing.Size(56, 30);
-            this.btnOpenFile1.TabIndex = 0;
+            this.btnOpenFile1.TabIndex = 3;
             this.btnOpenFile1.Text = "上传";
             this.btnOpenFile1.UseVisualStyleBackColor = true;
             this.btnOpenFile1.Click += new System.EventHandler(this.btnOpenFile_Click);
@@ -92,7 +92,7 @@
             this.btnOpenFile2.Location = new System.Drawing.Point(841, 48);
             this.btnOpenFile2.Name = "btnOpenFile2";
             this.btnOpenFile2.Size = new System.Drawing.Size(56, 30);
-            this.btnOpenFile2.TabIndex = 0;
+            this.btnOpenFile2.TabIndex = 6;
             this.btnOpenFile2.Text = "上传";
             this.btnOpenFile2.UseVisualStyleBackColor = true;
             this.btnOpenFile2.Click += new System.EventHandler(this.btnOpenFile1_Click);
@@ -103,7 +103,7 @@
             this.label1.Location = new System.Drawing.Point(11, 57);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(95, 12);
-            this.label1.TabIndex = 1;
+            this.label1.TabIndex = 4;
             this.label1.Text = "选择水印1路径：";
             // 
             // tbMask1Url
@@ -114,14 +114,14 @@
             this.tbMask1Url.Name = "tbMask1Url";
             this.tbMask1Url.ReadOnly = true;
             this.tbMask1Url.Size = new System.Drawing.Size(729, 30);
-            this.tbMask1Url.TabIndex = 2;
+            this.tbMask1Url.TabIndex = 5;
             // 
             // btnOpenFile3
             // 
             this.btnOpenFile3.Location = new System.Drawing.Point(841, 84);
             this.btnOpenFile3.Name = "btnOpenFile3";
             this.btnOpenFile3.Size = new System.Drawing.Size(56, 30);
-            this.btnOpenFile3.TabIndex = 0;
+            this.btnOpenFile3.TabIndex = 9;
             this.btnOpenFile3.Text = "上传";
             this.btnOpenFile3.UseVisualStyleBackColor = true;
             this.btnOpenFile3.Click += new System.EventHandler(this.btnOpenFile2_Click);
@@ -132,7 +132,7 @@
             this.label2.Location = new System.Drawing.Point(11, 93);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 12);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 7;
             this.label2.Text = "选择水印2路径：";
             // 
             // tbMask2Url
@@ -143,7 +143,7 @@
             this.tbMask2Url.Name = "tbMask2Url";
             this.tbMask2Url.ReadOnly = true;
             this.tbMask2Url.Size = new System.Drawing.Size(729, 30);
-            this.tbMask2Url.TabIndex = 3;
+            this.tbMask2Url.TabIndex = 8;
             // 
             // pictureBox
             // 
@@ -160,7 +160,7 @@
             this.label3.Location = new System.Drawing.Point(17, 719);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 12);
-            this.label3.TabIndex = 11;
+            this.label3.TabIndex = 1;
             this.label3.Text = "滤镜操作：";
             // 
             // lbAction
@@ -169,7 +169,7 @@
             this.lbAction.Location = new System.Drawing.Point(17, 679);
             this.lbAction.Name = "lbAction";
             this.lbAction.Size = new System.Drawing.Size(65, 12);
-            this.lbAction.TabIndex = 12;
+            this.lbAction.TabIndex = 1;
             this.lbAction.Text = "图片操作：";
             // 
             // btnWarm
@@ -177,7 +177,7 @@
             this.btnWarm.Location = new System.Drawing.Point(246, 710);
             this.btnWarm.Name = "btnWarm";
             this.btnWarm.Size = new System.Drawing.Size(75, 30);
-            this.btnWarm.TabIndex = 4;
+            this.btnWarm.TabIndex = 20;
             this.btnWarm.Text = "暖化";
             this.btnWarm.UseVisualStyleBackColor = true;
             this.btnWarm.Click += new System.EventHandler(this.btnWarm_Click);
@@ -187,7 +187,7 @@
             this.btnComic.Location = new System.Drawing.Point(165, 710);
             this.btnComic.Name = "btnComic";
             this.btnComic.Size = new System.Drawing.Size(75, 30);
-            this.btnComic.TabIndex = 5;
+            this.btnComic.TabIndex = 19;
             this.btnComic.Text = "连环画";
             this.btnComic.UseVisualStyleBackColor = true;
             this.btnComic.Click += new System.EventHandler(this.btnComic_Click);
@@ -197,7 +197,7 @@
             this.btnNostalgic.Location = new System.Drawing.Point(82, 710);
             this.btnNostalgic.Name = "btnNostalgic";
             this.btnNostalgic.Size = new System.Drawing.Size(77, 30);
-            this.btnNostalgic.TabIndex = 6;
+            this.btnNostalgic.TabIndex = 18;
             this.btnNostalgic.Text = "怀旧";
             this.btnNostalgic.UseVisualStyleBackColor = true;
             this.btnNostalgic.Click += new System.EventHandler(this.btnNostalgic_Click);
@@ -207,7 +207,7 @@
             this.btnRefresh.Location = new System.Drawing.Point(82, 670);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(77, 30);
-            this.btnRefresh.TabIndex = 7;
+            this.btnRefresh.TabIndex = 10;
             this.btnRefresh.Text = "还原";
             this.btnRefresh.UseVisualStyleBackColor = true;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
@@ -217,7 +217,7 @@
             this.btnRemoveTag2.Location = new System.Drawing.Point(403, 670);
             this.btnRemoveTag2.Name = "btnRemoveTag2";
             this.btnRemoveTag2.Size = new System.Drawing.Size(90, 30);
-            this.btnRemoveTag2.TabIndex = 8;
+            this.btnRemoveTag2.TabIndex = 13;
             this.btnRemoveTag2.Text = "去水印(mix)";
             this.btnRemoveTag2.UseVisualStyleBackColor = true;
             this.btnRemoveTag2.Click += new System.EventHandler(this.btnRemoveTag2_Click);
@@ -227,7 +227,7 @@
             this.btnRemoveTag1.Location = new System.Drawing.Point(278, 670);
             this.btnRemoveTag1.Name = "btnRemoveTag1";
             this.btnRemoveTag1.Size = new System.Drawing.Size(119, 30);
-            this.btnRemoveTag1.TabIndex = 9;
+            this.btnRemoveTag1.TabIndex = 12;
             this.btnRemoveTag1.Text = "去水印(反色中和)";
             this.btnRemoveTag1.UseVisualStyleBackColor = true;
             this.btnRemoveTag1.Click += new System.EventHandler(this.btnRemoveTag1_Click);
@@ -237,7 +237,7 @@
             this.btnRemoveTag.Location = new System.Drawing.Point(165, 670);
             this.btnRemoveTag.Name = "btnRemoveTag";
             this.btnRemoveTag.Size = new System.Drawing.Size(107, 30);
-            this.btnRemoveTag.TabIndex = 10;
+            this.btnRemoveTag.TabIndex = 11;
             this.btnRemoveTag.Text = "去水印(inpaint)";
             this.btnRemoveTag.UseVisualStyleBackColor = true;
             this.btnRemoveTag.Click += new System.EventHandler(this.btnRemoveTag_Click);
@@ -247,7 +247,7 @@
             this.button1.Location = new System.Drawing.Point(499, 670);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 30);
-            this.button1.TabIndex = 7;
+            this.button1.TabIndex = 14;
             this.button1.Text = "图片打印";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.btnPrint_Click);
@@ -268,7 +268,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(40, 30);
-            this.textBox1.TabIndex = 6;
+            this.textBox1.TabIndex = 21;
             // 
             // textBox2
             // 
@@ -277,14 +277,14 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(40, 30);
-            this.textBox2.TabIndex = 7;
+            this.textBox2.TabIndex = 22;
             // 
             // btnCut
             // 
             this.btnCut.Location = new System.Drawing.Point(595, 670);
             this.btnCut.Name = "btnCut";
             this.btnCut.Size = new System.Drawing.Size(90, 30);
-            this.btnCut.TabIndex = 7;
+            this.btnCut.TabIndex = 15;
             this.btnCut.Text = "图片裁剪";
             this.btnCut.UseVisualStyleBackColor = true;
             this.btnCut.Click += new System.EventHandler(this.btnCut_Click);
@@ -296,7 +296,7 @@
             this.tbWidth.Multiline = true;
             this.tbWidth.Name = "tbWidth";
             this.tbWidth.Size = new System.Drawing.Size(40, 30);
-            this.tbWidth.TabIndex = 4;
+            this.tbWidth.TabIndex = 16;
             // 
             // tbHeight
             // 
@@ -305,7 +305,7 @@
             this.tbHeight.Multiline = true;
             this.tbHeight.Name = "tbHeight";
             this.tbHeight.Size = new System.Drawing.Size(40, 30);
-            this.tbHeight.TabIndex = 5;
+            this.tbHeight.TabIndex = 17;
             // 
             // Form1
             // 
