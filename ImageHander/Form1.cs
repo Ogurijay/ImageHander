@@ -41,6 +41,12 @@ namespace ImageHander
             pictureBox.Image = image;
         }
 
+        public Mat Cut(Mat img, int width,int height)
+        {
+            img = img[0, height, 0, width];
+            return img;
+        }
+
         /// <summary>
         /// 反色处理算法
         /// </summary>
@@ -284,7 +290,7 @@ namespace ImageHander
 
         private void btnPrint_Click(object sender, EventArgs e)
         {
-            Cv2.ImWrite(AppDomain.CurrentDomain.BaseDirectory + "/" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".jpg", showImg);
+            Cv2.ImWrite(AppDomain.CurrentDomain.BaseDirectory + "/" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".png", showImg);
         }
 
         private void btnNostalgic_Click(object sender, EventArgs e)
@@ -303,6 +309,12 @@ namespace ImageHander
         private void btnWarm_Click(object sender, EventArgs e)
         {
             showImg = Warm(new Mat(modelPath, ImreadModes.Color),float.Parse( textBox1.Text), float.Parse(textBox2.Text));
+            ShowPicture(showImg);
+        }
+
+        private void btnCut_Click(object sender, EventArgs e)
+        {
+            showImg = Cut(new Mat(modelPath, ImreadModes.Color), int.Parse(tbWidth.Text), int.Parse(tbHeight.Text));
             ShowPicture(showImg);
         }
     }

@@ -51,6 +51,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btnCut = new System.Windows.Forms.Button();
+            this.tbWidth = new System.Windows.Forms.TextBox();
+            this.tbHeight = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -140,7 +143,7 @@
             this.tbMask2Url.Name = "tbMask2Url";
             this.tbMask2Url.ReadOnly = true;
             this.tbMask2Url.Size = new System.Drawing.Size(729, 30);
-            this.tbMask2Url.TabIndex = 2;
+            this.tbMask2Url.TabIndex = 3;
             // 
             // pictureBox
             // 
@@ -265,7 +268,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(40, 30);
-            this.textBox1.TabIndex = 14;
+            this.textBox1.TabIndex = 6;
             // 
             // textBox2
             // 
@@ -274,14 +277,44 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(40, 30);
-            this.textBox2.TabIndex = 14;
+            this.textBox2.TabIndex = 7;
+            // 
+            // btnCut
+            // 
+            this.btnCut.Location = new System.Drawing.Point(595, 670);
+            this.btnCut.Name = "btnCut";
+            this.btnCut.Size = new System.Drawing.Size(90, 30);
+            this.btnCut.TabIndex = 7;
+            this.btnCut.Text = "图片裁剪";
+            this.btnCut.UseVisualStyleBackColor = true;
+            this.btnCut.Click += new System.EventHandler(this.btnCut_Click);
+            // 
+            // tbWidth
+            // 
+            this.tbWidth.Font = new System.Drawing.Font("宋体", 12F);
+            this.tbWidth.Location = new System.Drawing.Point(691, 670);
+            this.tbWidth.Multiline = true;
+            this.tbWidth.Name = "tbWidth";
+            this.tbWidth.Size = new System.Drawing.Size(40, 30);
+            this.tbWidth.TabIndex = 4;
+            // 
+            // tbHeight
+            // 
+            this.tbHeight.Font = new System.Drawing.Font("宋体", 12F);
+            this.tbHeight.Location = new System.Drawing.Point(735, 670);
+            this.tbHeight.Multiline = true;
+            this.tbHeight.Name = "tbHeight";
+            this.tbHeight.Size = new System.Drawing.Size(40, 30);
+            this.tbHeight.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(909, 755);
+            this.Controls.Add(this.tbHeight);
             this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tbWidth);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
@@ -289,6 +322,7 @@
             this.Controls.Add(this.btnWarm);
             this.Controls.Add(this.btnComic);
             this.Controls.Add(this.btnNostalgic);
+            this.Controls.Add(this.btnCut);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnRemoveTag2);
@@ -338,6 +372,9 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btnCut;
+        private System.Windows.Forms.TextBox tbWidth;
+        private System.Windows.Forms.TextBox tbHeight;
     }
 }
 
